@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Amount" />
+        android:text="@string/amount" />
 
     <EditText
         android:id="@+id/AmountDecimal"
@@ -25,7 +25,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Num of Pax" />
+        android:text="@string/num_of_pax" />
 
     <EditText
         android:id="@+id/NumPax"
@@ -44,25 +44,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="ToggleButton"
-            android:textOff="NO SVS"
-            android:textOn="SVS" />
+            android:textOff="@string/no_svs"
+            android:textOn="@string/svs" />
 
         <ToggleButton
             android:id="@+id/toggleGST"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="ToggleButton"
-            android:textOff="NO GST"
-            android:textOn="GST" />
+            android:textOff="@string/no_gst"
+            android:textOn="@string/gst" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Discount (%)" />
+        android:text="@string/discount" />
 
     <EditText
         android:id="@+id/Discount"
@@ -81,13 +79,13 @@
             android:id="@+id/radioCash"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cash" />
+            android:text="@string/cash" />
 
         <RadioButton
             android:id="@+id/radioPayNow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="PayNow" />
+            android:text="@string/paynow" />
     </RadioGroup>
 
     <LinearLayout
@@ -100,14 +98,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Split" />
+            android:text="@string/split" />
 
         <Button
             android:id="@+id/buttonReset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Reset" />
+            android:text="@string/reset" />
 
     </LinearLayout>
 
